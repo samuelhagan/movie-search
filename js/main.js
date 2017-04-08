@@ -1,8 +1,8 @@
 $(document).ready(function(){
-   $("#getmovieinfo").on('click',function(e){
+   $("#getmovieinfo").Click(function(e){
      let searchText = $("#searchText").val();
      getMovies(searchText)
-      e.preventDefault();
+      e.preventDefault());
    })
 });
 
